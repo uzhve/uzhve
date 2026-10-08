@@ -6,7 +6,7 @@
     document.title = 'Проект не найден | Константин Ужве';
     const article = document.querySelector('#project-content');
     article.className = 'not-found';
-    article.innerHTML = '<h1>Проект не найден</h1><p>Выберите проект на <a class="underlined" href="index.html#projects">главной странице</a>.</p>';
+    article.innerHTML = '<h1>Проект не найден</h1><p>Выберите проект на <a class="underlined" href="/#projects">главной странице</a>.</p>';
     return;
   }
   const project = projects[index];
